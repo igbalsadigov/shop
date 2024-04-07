@@ -1,0 +1,226 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Jost", sans-serif;
+}
+
+#firstBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100px;
+}
+#firstBox .containerHead {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#firstBox .containerHead ul {
+  display: flex;
+  gap: 45px;
+  list-style-type: none;
+}
+#firstBox .containerHead ul li {
+  display: flex;
+  list-style-type: none;
+}
+#firstBox .containerHead ul li a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+#firstBox .containerHead .icons {
+  display: flex;
+  gap: 35px;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+#welcome {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("/h1_hero1.jpg");
+}
+#welcome .container {
+  width: 75%;
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+}
+#welcome .container .text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 25px;
+}
+#welcome .container .text p {
+  font-size: 23px;
+  font-family: "jost";
+}
+#welcome .container .text span {
+  font-family: "Clicker Script";
+  color: red;
+  font-size: 70px;
+}
+#welcome .container .text h1 {
+  font-family: "jost";
+  font-size: 50px;
+}
+#welcome .container .text button {
+  width: 25%;
+  height: 30px;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #292621;
+  color: aliceblue;
+  font-family: "jost";
+}
+
+#photoBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFFFFF;
+}
+#photoBox .containerPhoto {
+  margin-top: 40px;
+}
+#photoBox .containerPhoto .photo {
+  width: 80%;
+  display: flex;
+  gap: 30px;
+}
+
+#textBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 180px;
+}
+#textBox .textDecore {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px;
+  justify-content: space-between;
+  flex-direction: column;
+}
+#textBox .textDecore .textfive {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+#textBox .textDecore .textfive .textOne {
+  width: 40%;
+}
+#textBox .textDecore .textfive nav {
+  width: 20%;
+}
+#textBox .textDecore .textfive nav ul {
+  width: 60%;
+  display: flex;
+  gap: 45px;
+  list-style-type: none;
+}
+#textBox .textDecore .textfive nav ul li {
+  display: flex;
+  list-style-type: none;
+}
+#textBox .textDecore .textfive nav ul li a {
+  text-decoration: none;
+  color: black;
+}
+#textBox .textDecore .cards {
+  display: flex;
+  gap: 30px;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+#finish {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 600px;
+  background-color: #F3EAD8;
+  margin-top: 100px;
+}
+#finish .containerNow {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+}
+#finish .containerNow h1 {
+  font-family: "Jost";
+  font-size: 40px;
+}
+#finish .containerNow p {
+  font-family: "Jost";
+  font-size: 20px;
+}
+#finish .containerNow .imge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+#finishBox {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+#finishBox .finishPro {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#finishBox .finishPro h1 {
+  font-size: 50px;
+}
+#finishBox .cardin {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  text-align: center;
+  gap: 40px;
+  margin-bottom: 50px;
+}
+
+@media screen and (min-width: 300px) and (max-width: 991px) {
+  #welcome .container {
+    width: 100%;
+    justify-content: center;
+  }
+  #welcome .container .text {
+    width: 85%;
+  }
+  #welcome .container .text h1 {
+    font-size: 25px;
+  }
+}
